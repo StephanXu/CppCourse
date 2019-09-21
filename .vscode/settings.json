@@ -46,6 +46,7 @@
         "chrono": "cpp",
         "ratio": "cpp",
         "thread": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "functional": "cpp"
     }
 }
