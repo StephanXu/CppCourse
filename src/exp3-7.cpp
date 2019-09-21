@@ -1,7 +1,7 @@
 /**
  * @file exp3-7.cpp
  * @author Xu Zihan (stephanxu@foxmail.com)
- * @brief Experiment 3. Item 7.
+ * @brief Experiment 3. Item 7(P134).
  * @version 0.1
  * @date 2019-09-21
  * 
