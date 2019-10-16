@@ -47,6 +47,7 @@
         "ratio": "cpp",
         "thread": "cpp",
         "map": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "numeric": "cpp"
     }
 }
