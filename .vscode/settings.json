@@ -48,6 +48,7 @@
         "thread": "cpp",
         "map": "cpp",
         "functional": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "stack": "cpp"
     }
 }
