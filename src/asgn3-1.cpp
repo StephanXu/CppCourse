@@ -70,7 +70,7 @@ public:
                 char c = is.get();
                 if (std::isspace(c, is.getloc()))
                     break;
-                if (std::isdigit(c, is.getloc()))
+                else
                     rhs.buf.push_back(c);
             }
         }
@@ -86,10 +86,14 @@ private:
 
 int main()
 {
-    // MyString str[4];
-    // str[0] = "Here is a test for \"=\"";
-    // str[1] += " and \"+=\"";
-    // str[2] += str[1] + " and \"+\"";
-    // std::cout << "input your text: ";
-    // std::cin >> str[3];
+    MyString str[3];
+    str[0] = "Here is a test for \"=\"";
+    std::cout << str[0] << std::endl;
+    str[0] += " and \"+=\"";
+    std::cout << str[0] << std::endl;
+    str[1] += str[0] + " and \"+\"";
+    std::cout << str[1] << std::endl;
+    std::cout << "input your text: ";
+    std::cin >> str[2];
+    std::cout <<"Here are what you input: "<< str[2] << std::endl;
 }
